@@ -1,3 +1,5 @@
+RECRIANDO O PROJETO POMODORO
+
 # 🎓 Construção de Frontend
 
 Repositório destinado às aulas teóricas e às atividades práticas da disciplina.
