@@ -1,0 +1,87 @@
+:root {
+  /* 🎭 Tons de Azul Escuro (cores dinâmicas que mudam entre claro/escuro) */
+  --gray-100: #dbeafe;
+  --gray-200: #bfdbfe;
+  --gray-300: #93c5fd;
+  --gray-400: #4b6b9a;
+  --gray-500: #36527a;
+  --gray-600: #243b5a;
+  --gray-700: #1b2f4b;
+  /* Bordas e separadores */
+  --gray-800: #122033;
+  /* Fundo de cartões e áreas destacadas */
+  --gray-900: #08111f;
+  /* Fundo principal do site */
+
+  /* 🔵 Azul principal */
+  --primary-light: #3b82f6;
+  --primary: #1d4ed8;
+  --primary-dark: #1e3a8a;
+
+  /* 🔗 Links */
+  --link-color: #60a5fa;
+  --link-hover: #3b82f6;
+
+  /* 🚦 Alertas */
+  --success: #22c55e;
+  --warning: #eab308;
+  --error: #dc2626;
+  --info: #0ea5e9;
+
+  /* 🎨 Texto sobre fundos coloridos */
+  --text-over-primary: #f8fafc;
+  --text-over-primary-dark: #f8fafc;
+  --text-over-primary-light: #08111f;
+  --text-over-success: #08111f;
+  --text-over-warning: #08111f;
+  --text-over-error: #f8fafc;
+  --text-over-info: #08111f;
+
+  /* 📝 Texto */
+  --text-default: #e2e8f0;
+  --text-muted: #93a4bf;
+
+  /* 🚫 Desativados */
+  --disabled: #4b6b9a;
+  --text-disabled: #93a4bf;
+
+  /* 🔔 Toastify */
+  --toastify-color-light: var(--text-default);
+  --toastify-color-dark: var(--text-default);
+  --toastify-color-info: var(--info);
+  --toastify-color-success: var(--success);
+  --toastify-color-warning: var(--warning);
+  --toastify-color-error: var(--error);
+
+  --toastify-text-color-light: #08111f;
+  --toastify-text-color-dark: #e2e8f0;
+
+  --toastify-color-progress-light: var(--primary);
+  --toastify-color-progress-dark: var(--primary);
+}
+
+/* 🌞 Modo Claro */
+:root[data-theme='light'] {
+  /* Tons invertidos */
+  --gray-100: #08111f;
+  --gray-200: #122033;
+  --gray-300: #1b2f4b;
+  --gray-400: #243b5a;
+  --gray-500: #36527a;
+  --gray-600: #4b6b9a;
+  --gray-700: #93a4bf;
+  --gray-800: #c7d7eb;
+  --gray-900: #eaf2ff;
+
+  /* Texto */
+  --text-default: #08111f;
+  --text-muted: #243b5a;
+
+  /* Links */
+  --link-color: #1d4ed8;
+  --link-hover: #1e3a8a;
+
+  /* Toastify */
+  --toastify-text-color-light: #f8fafc;
+  --toastify-text-color-dark: #e2e8f0;
+}
